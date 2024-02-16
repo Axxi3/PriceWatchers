@@ -1,8 +1,8 @@
 import { calculateAverage, getEmailNotifType, getHighestPrice, getLowestPrice } from "@/lib/Utils"
-import Product from "@/lib/models/ProductModel"
-import { generateEmailBody, sendEmail } from "@/lib/nodemailer"
-import { ScrapeAmazonProduct } from "@/lib/scraper"
-import { connectToDb } from "@/lib/scraper/moongoose"
+import Product from "../../../lib/models/ProductModel"
+import { generateEmailBody, sendEmail } from "../../../lib/nodemailer"
+import { ScrapeAmazonProduct } from "../../../lib/scraper"
+import { connectToDb } from "../../../lib/scraper/moongoose"
 import { NextRequest, NextResponse } from "next/server"
 
 export async function GET(){ 
