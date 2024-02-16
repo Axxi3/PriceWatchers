@@ -1,7 +1,7 @@
 import { Inter ,Space_Grotesk} from "next/font/google";
 import "./globals.css";
 import { Metadata } from "next";
-import Navbar from "@/Components/Navbar";
+import Navbar from "../Components/Navbar";
 const inter = Inter({ subsets: ["latin"] }); 
 const psaceGrotesl= Space_Grotesk({
   subsets:['latin'],weight:["300","400","500","600","700"]

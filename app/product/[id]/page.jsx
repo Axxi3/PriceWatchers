@@ -1,10 +1,10 @@
 
-import Modal from '@/Components/Modal';
-import { Notification } from '@/Components/Notification';
-import ReviewCard from '@/Components/ReviewCard';
-import { getHighestPrice } from '@/lib/Utils';
-import { getProducts } from '@/lib/actions';
-import { redirect } from 'next/dist/server/api-utils';
+import Modal from '../../../Components/Modal';
+import { Notification } from '../../../Components/Notification';
+import ReviewCard from '../../../Components/ReviewCard';
+
+import { getProducts } from '../../../lib/actions';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import React  from 'react';

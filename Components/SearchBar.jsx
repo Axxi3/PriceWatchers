@@ -4,7 +4,7 @@
  * @returns The code is returning a React functional component called SearchBar.
  */
 "use client"
-import { scrapeAndStroreProduct } from '@/lib/actions';
+import { scrapeAndStroreProduct } from '../lib/actions/index';
 import React, { FormEvent,useState } from 'react';
 
 export default function SearchBar() {   

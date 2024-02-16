@@ -1,4 +1,4 @@
-import { calculateAverage, getEmailNotifType, getHighestPrice, getLowestPrice } from "@/lib/Utils"
+import { calculateAverage, getEmailNotifType, getHighestPrice, getLowestPrice } from "../../../lib/Utils"
 import Product from "../../../lib/models/ProductModel"
 import { generateEmailBody, sendEmail } from "../../../lib/nodemailer"
 import { ScrapeAmazonProduct } from "../../../lib/scraper"

@@ -1,6 +1,6 @@
 'use client'
 
-import { addUserEmailToProduct } from '@/lib/actions';
+import { addUserEmailToProduct } from '../lib/actions/index';
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image';
 import React, { Fragment, useState } from 'react'

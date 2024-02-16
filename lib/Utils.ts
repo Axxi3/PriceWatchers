@@ -1,4 +1,4 @@
-import { NotificationType, PriceHistoryItem, Product } from "@/types";
+import { NotificationType, PriceHistoryItem, Product } from "../types/index";
 import { NOts } from "./nodemailer";
 
 export function extractPrice(priceToPay, array: any, original) {

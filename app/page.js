@@ -6,10 +6,10 @@
 import React from 'react'
 import arrow_right from "../public/assets/icons/arrow-right.svg" 
 import Image from 'next/image'
-import SearchBar from '@/Components/SearchBar'
-import HeroCarousel from '@/Components/HeroCarousel' 
-import { getProductsList } from '@/lib/actions'
-import { Cards } from '@/Components/Cards'
+import SearchBar from '../Components/SearchBar'
+import HeroCarousel from '../Components/HeroCarousel' 
+import { getProductsList } from '../lib/actions/index'
+import { Cards } from '../Components/Cards'
 
 export default async function HomePage() {  
   
