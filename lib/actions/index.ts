@@ -13,7 +13,7 @@ import { calculateAverage, getAveragePrice, getHighestPrice, getLowestPrice } fr
 import Product from "../models/ProductModel";
 import { ScrapeAmazonProduct } from "../scraper";
 import { connectToDb } from "../scraper/moongoose";
-import { User } from "@/types";
+import { User } from "../../types/index";
 import { generateEmailBody, sendEmail } from "../nodemailer";
 import { sendResponse } from "next/dist/server/image-optimizer";
 
@@ -47,7 +47,7 @@ export async function scrapeAndStroreProduct(ProductUrl:string) {
 
           product={
             ...scrapedProduct,
-            PriceHistory:updatedPriceHistory ,
+            priceHistory:updatedPriceHistory ,
             lowestPrice:getLowestPrice(updatedPriceHistory),
             HighestPrice:getHighestPrice(updatedPriceHistory),
             averagePrice:calculateAverage(updatedPriceHistory)

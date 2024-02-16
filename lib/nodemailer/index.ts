@@ -1,4 +1,4 @@
-import { EmailContent, EmailProductInfo, NotificationType } from "@/types";
+import { EmailContent, EmailProductInfo, NotificationType } from "../../types/index";
 import nodemailer from "nodemailer";
 
 export const NOts = {
